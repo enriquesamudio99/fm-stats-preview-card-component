@@ -6,15 +6,34 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend Mentor | Stats Preview Card Component</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    Get insights that help your business grow.
+    
+    <div class="card">
+        
+        <div class="card__img">
+            <img src="img/image-header-mobile.jpg" alt="Image Header" class="card__img-mobile">
+        </div>
+        
+        <div class="card__content">
+            <h1 class="card__title">Get <span>insights</span> that help your business grow.</h1>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+            <p class="card__subtitle">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
 
-  10k+ companies
-  314 templates
-  12m+ queries
+            <div class="card__statistics">
+                <div class="card__statistic">
+                    <p class="card__statistic-text">10k+<span>companies</span></p>
+                </div>
+                <div class="card__statistic">
+                    <p class="card__statistic-text">314<span>templates</span></p>
+                </div>
+                <div class="card__statistic">
+                    <p class="card__statistic-text">12m+<span>queries</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>

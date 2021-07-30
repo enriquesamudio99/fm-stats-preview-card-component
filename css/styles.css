@@ -23,5 +23,84 @@
 }
 
 body {
-    font-size: 15px;
+    font-family: var(--interFamily);
+    background-color: var(--veryDarkBlue);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.card {
+    margin: 4rem 1.25rem;
+    background-color: var(--darkDesaturatedBlue);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.card__img {
+    position: relative;
+    height: 240px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.card__img::after {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(86, 36, 117, 0.75);
+}
+
+.card__content {
+    padding: 2rem;
+    text-align: center;
+    color: var(--white);
+}
+
+.card__title {
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.card__title span {
+    color: var(--softViolet);
+}
+
+.card__subtitle {
+    color: var(--slightlyTransparentWhite);
+    line-height: 1.6;
+    font-size: 0.938rem;
+    margin-bottom: 2rem;
+}
+
+.card__statistics {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card__statistic {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.card__statistic span {
+    display: block;
+    text-transform: uppercase;
+    color: var(--slightlyTransparentWhiteTwo);
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-top: .5rem;
+    letter-spacing: 1px;
 }
