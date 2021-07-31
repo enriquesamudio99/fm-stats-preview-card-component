@@ -78,6 +78,11 @@ h1, p {
     background-color: rgba(86, 36, 117, 0.75);
 }
 
+.card__img img {
+    width: 100%;
+    height: 100%;
+}
+
 @media (min-width: 1200px) {
     .card__img {
         grid-area: img;
