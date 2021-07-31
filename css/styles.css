@@ -63,7 +63,7 @@ h1, p {
 
 .card__img {
     position: relative;
-    height: 240px;
+    height: 230px;
     overflow: hidden;
     object-fit: cover;
 }
@@ -78,10 +78,6 @@ h1, p {
     background-color: rgba(86, 36, 117, 0.75);
 }
 
-.card__img img {
-    width: 100%;
-    height: 100%;
-}
 
 @media (min-width: 1200px) {
     .card__img {
